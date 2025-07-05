@@ -1,0 +1,27 @@
+name: Gerar Post do Easy Peasy TypeScript
+
+on:
+  workflow_dispatch:
+    inputs:
+      tema:
+        description: "Tema do post (opcional)"
+        required: false
+
+jobs:
+  gerar-post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Executar script de geração
+        run: node scripts/generate-post.js "${{ github.event.inputs.tema }}"
