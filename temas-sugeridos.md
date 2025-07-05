@@ -1,0 +1,18 @@
+- Utility Types:
+    - Awaited<Type>
+    - Partial<Type>
+    - Required<Type>
+    - Readonly<Type>
+    - Pick<Type, Keys>
+    - Exclude<UnionType, ExcludedMembers>
+    - Extract<Type, Union>
+    - NonNullable<Type>
+    - Parameters<Type>
+    - NonInfer<Type>
+    - ThisType<Type>
+    - ThisParameterType<Type>
+    - OmitThisParameter<Type>
+- Inference in Conditional Types
+- Key Remapping
+- Advanced Mapped Types
+- Recursive Types
