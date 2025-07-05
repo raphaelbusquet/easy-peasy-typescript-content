@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 
 dotenv.config();
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY || process.env.OPENAI_API_KEY_GITHUB });
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
