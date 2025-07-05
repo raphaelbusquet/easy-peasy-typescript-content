@@ -49,10 +49,25 @@ async function generatePost() {
 
   const response = completion.choices[0].message.content;
 
-  const timestamp = Date.now();
-  const fileName = path.join(POSTS_DIR, `${timestamp}-post.md`);
-  await fs.writeFile(fileName, response);
-  console.log(`✅ New post saved in: ${fileName}`);
+  const topicMatch = response.match(/#.*?Easy Peasy TypeScript\s*[-–]\s*#\d+\s*(.+)/i);
+  const rawTitle = topicMatch ? topicMatch[1].trim() : 'newTopic';
+
+  const topicCamelCase = rawTitle
+    .replace(/[^a-zA-Z0-9 ]/g, '')
+    .split(' ')
+    .map((word, index) =>
+      index === 0 ? word.toLowerCase() : word[0].toUpperCase() + word.slice(1).toLowerCase()
+    )
+    .join('');
+
+  const files = await fs.readdir(POSTS_DIR);
+  const postNumber = files.length + 1;
+
+  const fileName = `${postNumber}-${topicCamelCase}.md`;
+  const filePath = path.join(POSTS_DIR, fileName);
+
+  await fs.writeFile(filePath, response);
+  console.log(`✅ New post saved in: ${filePath}`);
 }
 
 await generatePost();
