@@ -6,17 +6,17 @@ Em situações onde você precisa definir estruturas de dados complexas que se r
 
 No exemplo abaixo, temos um tipo Node que pode ter filhos que são também do tipo Node. Isso nos permite construir uma estrutura de árvore de forma tipada e segura.
 
-💡 Onde esse recurso brilha:
+💡 Quando esse recurso é útil:
 
 ✅ Modelagem de estruturas de dados complexas
 ✅ Garantia de consistência e integridade dos dados
 ✅ Facilidade na manipulação e navegação da estrutura
 
-E aí, dev, já teve a necessidade de usar Recursive Types em seus projetos?
-
 Link para a documentação:(https://www.typescriptlang.org/pt/play/?#example/recursive-type-references)
 
-#typescript #frontend #devtips #vidadedev #fullstack #programação #programming #backend #javascript #devlife
+Se gostou deixa aquele teu like para continuar a ver dicas assim! 👇🏼
+
+#typescript #frontend #devtips #vidadedev #fullstack #programação #programming #backend #javascript #devlife #angular
 
 ## Código
 ```
