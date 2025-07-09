@@ -12,7 +12,7 @@ No exemplo abaixo, temos um objeto User que é tipado como Readonly<User>, imped
 ✅ Evita bugs relacionados à mutabilidade inesperada
 ✅ Mais segurança na manutenção do código
 
-E aí, dev, já utilizou o Readonly em seus projetos? Conte nos comentários!
+E aí dev, o que achou desse recurso do TypeScript? Conte-aqui nos comentários! 👇🏼
 
 Link para a documentação: [https://www.typescriptlang.org/docs/handbook/utility-types.html#readonlytype]
 
