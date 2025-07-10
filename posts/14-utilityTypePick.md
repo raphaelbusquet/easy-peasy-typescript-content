@@ -12,7 +12,7 @@ No exemplo abaixo, temos um tipo User com várias propriedades, e utilizamos o P
 ✅ Aumento da legibilidade do código
 ✅ Facilidade na reutilização de propriedades específicas
 
-E aí, dev, já utilizou o Pick em seus projetos? Compartilhe sua experiência nos comentários!
+E aí dev, o que achou desse recurso do TypeScript? Deixa aqui nos comentários! 👇🏼💪🏼
 
 Link para a documentação: [https://www.typescriptlang.org/docs/handbook/utility-types.html#picktype-keys]
 
