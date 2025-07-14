@@ -12,11 +12,11 @@ No exemplo abaixo, temos uma função greet que recebe um nome e uma idade como 
 ✅ Melhoria na tipagem de funções com parâmetros dinâmicos
 ✅ Facilidade na manipulação e reutilização dos tipos dos parâmetros
 
-E aí, dev, já teve a necessidade de utilizar o Parameters em seus projetos? Compartilhe nos comentários!
+Deixa aquele like se curtiu esse recurso! 👇🏼💪🏼
 
-Link para a documentação: [https://www.typescriptlang.org/docs/handbook/utility-types.html#parameterstype]
+Link para a documentação: [https://lnkd.in/dSXssBBt]
 
-#typescript #frontend #devtips #vidadedev #fullstack #programação #programming #backend #javascript #devlife
+hashtag#typescript hashtag#frontend hashtag#devtips hashtag#vidadedev hashtag#fullstack hashtag#programação hashtag#programming hashtag#backend hashtag#javascript hashtag#devlife
 
 ## Código
 ```
