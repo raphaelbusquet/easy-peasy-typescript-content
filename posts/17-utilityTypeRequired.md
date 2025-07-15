@@ -12,11 +12,11 @@ No exemplo abaixo, temos um tipo User com algumas propriedades opcionais, e util
 ✅ Evita erros relacionados à falta de dados obrigatórios
 ✅ Mais segurança na manipulação dos tipos
 
-E aí, dev, já utilizou o Required em seus projetos? Compartilhe sua experiência nos comentários!
+E aí dev, já utilizou o Required em seus projetos? Deixa aqui nos comentários! 👇🏼
 
-Link para a documentação: [https://www.typescriptlang.org/docs/handbook/utility-types.html#requiredtype]
+Link para a documentação: [https://lnkd.in/daQr_Uk4]
 
-#typescript #frontend #devtips #vidadedev #fullstack #programação #programming #backend #javascript #devlife
+hashtag#typescript hashtag#frontend hashtag#devtips hashtag#vidadedev hashtag#fullstack hashtag#programação hashtag#programming hashtag#backend hashtag#javascript hashtag#devlife
 
 ## Código
 ```
