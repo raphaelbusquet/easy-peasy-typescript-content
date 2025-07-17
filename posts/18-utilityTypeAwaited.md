@@ -12,9 +12,9 @@ No exemplo abaixo, temos uma função assíncrona que retorna uma Promise com um
 ✅ Facilita a tipagem de funções assíncronas
 ✅ Mais segurança na manipulação de valores assíncronos
 
-E aí, dev, já teve a necessidade de utilizar o Awaited em seus projetos? Compartilhe nos comentários!
-
 Link para a documentação: [https://www.typescriptlang.org/docs/handbook/utility-types.html#awaitedtype]
+
+Espero que esse conteúdo tenha sido útil para você! Se tiver alguma dúvida ou sugestão, deixe nos comentários. Não esqueça de compartilhar com outros devs que possam se beneficiar desse conhecimento. 🚀
 
 #typescript #frontend #devtips #vidadedev #fullstack #programação #programming #backend #javascript #devlife
 
@@ -35,7 +35,3 @@ const user: AwaitedUser = { name: "Bob", age: 25 };
 
 console.log(user);
 ``` 
-
-Espero que esse conteúdo tenha sido útil para você! Se tiver alguma dúvida ou sugestão, deixe nos comentários. Não esqueça de compartilhar com outros devs que possam se beneficiar desse conhecimento. 🚀
-
-#typescript #frontend #devtips #vidadedev #fullstack #programação #programming #backend #javascript #devlife
