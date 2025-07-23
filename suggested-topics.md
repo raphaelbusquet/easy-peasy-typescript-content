@@ -8,7 +8,7 @@
     - Extract<Type, Union>
     - NonNullable<Type>
     - Parameters<Type>
-    - NonInfer<Type>
+    - NoInfer<Type>
     - ThisType<Type>
     - ThisParameterType<Type>
     - OmitThisParameter<Type>
