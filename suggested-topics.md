@@ -10,8 +10,6 @@
     - Parameters<Type>
     - NoInfer<Type>
     - ThisType<Type>
-    - ThisParameterType<Type>
-    - OmitThisParameter<Type>
 - Inference in Conditional Types
 - Key Remapping
 - Advanced Mapped Types

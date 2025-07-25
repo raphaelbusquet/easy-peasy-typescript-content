@@ -1,4 +1,4 @@
-# 🧠 Easy Peasy TypeScript – #23 Utility Type: ThisType<T>
+# 🧠 Easy Peasy TypeScript – #23 Utility Type: ThisType<Type>
 Você já se perguntou como tipar corretamente o this dentro de métodos de objetos criados dinamicamente, como com Object.assign ou Object.create?
 
 É aí que entra o poderoso e menos conhecido utility type ThisType<T> do TypeScript!
